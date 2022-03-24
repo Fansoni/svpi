@@ -8,8 +8,8 @@ class Index
     view('Index/home');
   }
 
-  public function about()
+  public function login()
   {
-    view('Index/about');
+    view('Index/login');
   }
 }

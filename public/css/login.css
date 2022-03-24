@@ -1,0 +1,154 @@
+/* Made with love by Mutiullah Samim*/
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+html,
+body {
+    background-image: url('../img/login_bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.float-right {
+    float: right;
+}
+
+.card-footer {
+    margin-top: 30px;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.h-100 {
+    height: 100px;
+}
+
+.card {
+    /* height: 370px; */
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    padding: 25px;
+}
+
+.social_icon span {
+    font-size: 60px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.card-body {
+    margin-top: 40px;
+}
+
+.card-header {
+    position: relative;
+}
+
+.card-header h3 {
+    color: white;
+}
+
+.social_icon {
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
+
+.links {
+    color: white;
+    margin-top: 10px;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: #FFC312;
+}
+
+form>.form-group>.input-group>.input-group-addon {
+    background-color: #FFC312;
+    color: black;
+    padding-right: 20px;
+}
+
+
+/* The animation code */
+
+@keyframes icon-padding {
+    from {
+        padding-right: 0px;
+    }
+    to {
+        padding-right: 10px;
+    }
+}
+
+.return-link:hover i {
+    animation-name: icon-padding;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}

@@ -2,7 +2,7 @@
 
 // Static pages routes
 $router->addRoute('', ['controller' => 'Index', 'action' => 'home']);
-$router->addRoute('about', ['controller' => 'Index', 'action' => 'about']);
+$router->addRoute('login', ['controller' => 'Index', 'action' => 'login']);
 
 // Routes in main controllers/ folder (Namespace \Controllers)
 $router->addRoute('{controller}/{action}');
