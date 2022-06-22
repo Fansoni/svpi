@@ -6,7 +6,7 @@
         <div class="container">
             <ul class="header-links pull-left">
                 <li><a href="#"><i class="fa fa-phone"></i> +244 999 999 999</a></li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i> email@email.com</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o"></i> svpi@gmail.com</a></li>
                 <li><a href="#"><i class="fa fa-map-marker"></i> Angola, Luanda, Viana, Estalagem Km 12B</a></li>
             </ul>
             <ul class="header-links pull-right">
@@ -26,7 +26,8 @@
                 <div class="col-md-3">
                     <div class="header-logo">
                         <a href="#" class="logo">
-                            <img src="./img/logo.png" alt="">
+                            <!-- <img src="./img/logo.png" alt=""> -->
+                            <h1 style="color: white !important; margin-top: 20px;">SVPI</h1>
                         </a>
                     </div>
                 </div>
@@ -75,7 +76,7 @@
                                             <img src="./img/product01.png" alt="">
                                         </div>
                                         <div class="product-body">
-                                            <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                            <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                             <h4 class="product-price"><span class="qty">1x</span>$980.00</h4>
                                         </div>
                                         <button class="delete"><i class="fa fa-close"></i></button>
@@ -86,7 +87,7 @@
                                             <img src="./img/product02.png" alt="">
                                         </div>
                                         <div class="product-body">
-                                            <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                            <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                             <h4 class="product-price"><span class="qty">3x</span>$980.00</h4>
                                         </div>
                                         <button class="delete"><i class="fa fa-close"></i></button>
@@ -132,13 +133,12 @@
         <div id="responsive-nav">
             <!-- NAV -->
             <ul class="main-nav nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#">Hot Deals</a></li>
-                <li><a href="#">Categories</a></li>
+                <li class="active"><a href="#">Página Inicial</a></li>
+                <li><a href="#">Categorias</a></li>
                 <li><a href="#">Laptops</a></li>
                 <li><a href="#">Smartphones</a></li>
-                <li><a href="#">Cameras</a></li>
-                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Câmaras</a></li>
+                <li><a href="#">Acessórios</a></li>
             </ul>
             <!-- /NAV -->
         </div>
@@ -161,8 +161,8 @@
                         <img src="./img/shop01.png" alt="">
                     </div>
                     <div class="shop-body">
-                        <h3>Laptop<br>Collection</h3>
-                        <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                        <h3>Coleção de <br>Laptops</h3>
+                        <a href="#" class="cta-btn">Comprar agora <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -175,8 +175,8 @@
                         <img src="./img/shop03.png" alt="">
                     </div>
                     <div class="shop-body">
-                        <h3>Accessories<br>Collection</h3>
-                        <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                        <h3>Coleção de <br>Acessórios</h3>
+                        <a href="#" class="cta-btn">Comprar agora <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -189,8 +189,8 @@
                         <img src="./img/shop02.png" alt="">
                     </div>
                     <div class="shop-body">
-                        <h3>Cameras<br>Collection</h3>
-                        <a href="#" class="cta-btn">Shop now <i class="fa fa-arrow-circle-right"></i></a>
+                        <h3>Coleção de <br>Câmaras</h3>
+                        <a href="#" class="cta-btn">Comprar agora <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -212,13 +212,13 @@
             <!-- section title -->
             <div class="col-md-12">
                 <div class="section-title">
-                    <h3 class="title">New Products</h3>
+                    <h3 class="title">Novos Produtos</h3>
                     <div class="section-nav">
                         <ul class="section-tab-nav tab-nav">
                             <li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
                             <li><a data-toggle="tab" href="#tab1">Smartphones</a></li>
-                            <li><a data-toggle="tab" href="#tab1">Cameras</a></li>
-                            <li><a data-toggle="tab" href="#tab1">Accessories</a></li>
+                            <li><a data-toggle="tab" href="#tab1">Câmaras</a></li>
+                            <li><a data-toggle="tab" href="#tab1">Acessórios</a></li>
                         </ul>
                     </div>
                 </div>
@@ -238,12 +238,12 @@
                                         <img src="./img/product01.png" alt="">
                                         <div class="product-label">
                                             <span class="sale">-30%</span>
-                                            <span class="new">NEW</span>
+                                            <span class="new">NOVO</span>
                                         </div>
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -269,12 +269,12 @@
                                     <div class="product-img">
                                         <img src="./img/product02.png" alt="">
                                         <div class="product-label">
-                                            <span class="new">NEW</span>
+                                            <span class="new">NOVO</span>
                                         </div>
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -304,8 +304,8 @@
                                         </div>
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                         </div>
@@ -327,8 +327,8 @@
                                         <img src="./img/product04.png" alt="">
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -355,8 +355,8 @@
                                         <img src="./img/product05.png" alt="">
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -427,7 +427,7 @@
                     </ul>
                     <h2 class="text-uppercase">hot deal this week</h2>
                     <p>New Collection Up to 50% OFF</p>
-                    <a class="primary-btn cta-btn" href="#">Shop now</a>
+                    <a class="primary-btn cta-btn" href="#">Comprar agora</a>
                 </div>
             </div>
         </div>
@@ -473,12 +473,12 @@
                                         <img src="./img/product06.png" alt="">
                                         <div class="product-label">
                                             <span class="sale">-30%</span>
-                                            <span class="new">NEW</span>
+                                            <span class="new">NOVO</span>
                                         </div>
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -504,12 +504,12 @@
                                     <div class="product-img">
                                         <img src="./img/product07.png" alt="">
                                         <div class="product-label">
-                                            <span class="new">NEW</span>
+                                            <span class="new">NOVO</span>
                                         </div>
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -539,8 +539,8 @@
                                         </div>
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                         </div>
@@ -562,8 +562,8 @@
                                         <img src="./img/product09.png" alt="">
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -590,8 +590,8 @@
                                         <img src="./img/product01.png" alt="">
                                     </div>
                                     <div class="product-body">
-                                        <p class="product-category">Category</p>
-                                        <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                        <p class="product-category">Categoria</p>
+                                        <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                         <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                                         <div class="product-rating">
                                             <i class="fa fa-star"></i>
@@ -648,8 +648,8 @@
                                 <img src="./img/product07.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -661,8 +661,8 @@
                                 <img src="./img/product08.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -674,8 +674,8 @@
                                 <img src="./img/product09.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -689,8 +689,8 @@
                                 <img src="./img/product01.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -702,8 +702,8 @@
                                 <img src="./img/product02.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -715,8 +715,8 @@
                                 <img src="./img/product03.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -741,8 +741,8 @@
                                 <img src="./img/product04.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -754,8 +754,8 @@
                                 <img src="./img/product05.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -767,8 +767,8 @@
                                 <img src="./img/product06.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -782,8 +782,8 @@
                                 <img src="./img/product07.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -795,8 +795,8 @@
                                 <img src="./img/product08.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -808,8 +808,8 @@
                                 <img src="./img/product09.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -836,8 +836,8 @@
                                 <img src="./img/product01.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -849,8 +849,8 @@
                                 <img src="./img/product02.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -862,8 +862,8 @@
                                 <img src="./img/product03.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -877,8 +877,8 @@
                                 <img src="./img/product04.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -890,8 +890,8 @@
                                 <img src="./img/product05.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>
@@ -903,8 +903,8 @@
                                 <img src="./img/product06.png" alt="">
                             </div>
                             <div class="product-body">
-                                <p class="product-category">Category</p>
-                                <h3 class="product-name"><a href="#">product name goes here</a></h3>
+                                <p class="product-category">Categoria</p>
+                                <h3 class="product-name"><a href="#">Nome do produto</a></h3>
                                 <h4 class="product-price">$980.00 <del class="product-old-price">$990.00</del></h4>
                             </div>
                         </div>

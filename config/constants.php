@@ -4,7 +4,7 @@ define('APPROOT', dirname(dirname(__FILE__)));
 // URL Root
 define('URLROOT', 'http://localhost/php-basic-mvc');
 // Site Name
-define('SITENAME', 'Electro');
+define('SITENAME', 'SVPI');
 
 // CRUD Operations' Alert Messages
 define('TASK_NOT_CREATED', 'Something went wrong creating new task');
